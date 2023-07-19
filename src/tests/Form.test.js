@@ -4,7 +4,6 @@ import {render, screen} from '@testing-library/react';
 import App from '../App';
 
 describe('', () => {
-    
   it("Será validado se existe um input texto para o nome", () => {
       render(<App />);
       const nameInput = screen.getByTestId(/name-input/i);
